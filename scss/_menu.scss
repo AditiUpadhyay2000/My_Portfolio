@@ -41,7 +41,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.92;
+  opacity: 0.99;
   visibility: hidden;
 
   &.show {
@@ -55,11 +55,12 @@
     align-items: center;
     justify-content: center;
     float: left;
-    width: 50%;
+    width: 70%;
     height: 100vh;
     overflow: hidden;
   }
   &-nav {
+    width: 30%;
     margin: 0;
     padding: 0;
     background: darken($primary-color, 5);
@@ -106,12 +107,14 @@
   text-transform: uppercase;
   padding: 1rem 0;
   font-weight: 300;
-  color: set-text-color($primary-color);
+  color: darken($secondary-color, 10);
   text-decoration: none;
   @include easeout;
 
   &:hover {
-    color: $secondary-color;
+    color: darken($secondary-color, 10);
+    font-weight: 500;
+    background-color: lighten($primary-color, 10);
   }
 }
 //delay each nav item slide by 0.1s

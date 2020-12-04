@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Responsive Portfolio Website/dist",
   "main": "index.js",
-  "homepage": "https://AditiUpadhyay2000.github.io/My_Portfolio",
+  "homepage": "https://AditiUpadhyay2000.github.io/My_PortfolioWebsite",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
